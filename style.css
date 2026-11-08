@@ -1,0 +1,243 @@
+ /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    background-color: beige;
+    color:chartreuse;
+    line-height: 1.6;
+    padding: 20px;
+
+}
+ header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(red, green, blue);
+
+ }
+ header h1 {
+    color: #000;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+
+ }
+
+ main {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 25px;
+    max-width: 100px;
+    margin: 0 auto;
+
+ }
+
+ section {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(red, green, blue);
+
+ }
+
+ section h2 {
+    margin-bottom: 20px;
+    color:deeppink;
+    border-bottom: 2px solid rosybrown;
+    padding-bottom: 8%;
+    font-size: 18px;
+
+ }
+
+ form-group {
+    margin-bottom: 15px;
+
+ }
+
+ label {
+    margin-bottom: 20px;
+    color:deeppink;
+    border-bottom: 2px solid rosybrown;
+    padding-bottom: 8%;
+    font-size: 18px;
+ }
+
+ input[type="text"],
+ select,
+ textarea {
+    width: 300px;
+    padding: 25px 25px;
+    border: 1px salmon;
+    border-radius: 6px;
+    font-size: medium;
+    background-color: darkorange;
+    transition: all 0,3s ease;
+}
+
+ input[type="text"]:focus,
+ select:focus,
+ textarea:hover {
+    border-color: bisque;
+ }
+
+ input[type="text"]:focus,
+ select:focus,
+ textarea:focus{
+    outline: auto;
+    border-color: chartreuse;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+
+ }
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+
+  }
+
+  button[type="submit"] {
+    width: 100px;
+    padding: 25px;
+    background-color: darkgreen;
+    color: azure;
+    border: none;
+    border-radius: 6px;
+    font-family: 16px;
+    cursor: pointer;
+    transition: background-color;
+
+  }
+  button[type="submit"]:focus {
+    outline: none;
+    box-shadow: rgba(52, 152, 219, 0.2);
+
+  }
+  button[type="submit"]:active {
+    transform: scale(0,98);
+
+  }
+  .eror-msg{
+    color: floralwhite;
+    font-size: 12px;
+    margin-top: 10px;
+    display: block;
+
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  .table-responsive{
+   overflow-x: auto;
+
+  }
+  table{
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 10px;
+   font-size: 14px;
+
+  }
+  th,td {
+   padding: 25px;
+   text-align: left;
+   border-bottom: 1px salmon;
+
+  }
+  th{
+   background-color: aqua;
+   color: cadetblue;
+   font-weight: 600;
+
+  }
+  tr:hover{
+   background-color: bisque;
+  }
+  main {
+   grid-template-columns: max-content;
+  }
+ body {
+   padding: 10px;
+
+ }
+ header {
+   margin-bottom: 20px;
+ }
+ footer {
+   text-align: center;
+   margin-top: 40px;
+   padding: 25px;
+   color: hotpink;
+   font-size: 12px;
+ } */
+
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+body{
+   background-color: beige;
+   line-height: 1.6;
+   padding: 20px;
+}
+
+header{
+   background-color: rgb(36, 36, 134);
+   color: white;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+   display: grid;
+   max-width: 100%;
+   gap: 25px;
+
+}
+
+section{
+   background: #ffffff;
+   padding: 25px;
+   border-radius: 8px;
+}
+section h2{
+   margin-bottom: 20px;
+    color:deeppink;
+    border-bottom: 2px solid rosybrown;
+    padding-bottom: 8%;
+    font-size: 18px;
+}
+label{
+   margin-bottom: 20px;
+    color:deeppink;
+    padding-bottom: 8%;
+    font-size: 18px;
+ }
+ th,td {
+   padding: 25px;
+   text-align: left;
+   border-bottom: 1px salmon;
+}
+th{
+   background-color: aqua;
+   color: rgb(0, 110, 113);
+   font-weight: 600;
+}
+header {
+   margin-bottom: 20px;
+ }
+ footer {
+   text-align: center;
+   margin-top: 40px;
+   padding: 25px;
+   color: hotpink;
+   font-size: 15px;
+ }
